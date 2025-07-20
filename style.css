@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(Run.jpg) no-repeat center center / cover;
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    background-color: #fff;
+    width : 50%;
+    height: 250px;
+    padding: 18px;
+    border: 2px #000 solid;
+    border-radius: 30px;
+    left: 1%;
+    box-shadow: 0 0 5px #000 ;
+}
+
+#timer{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+.buttons{
+        text-align: center;
+        margin-top: 20px;
+}
+
+button i {
+     padding: 6px;
+     color: #fff;
+} 
+
+button {
+margin: 0 5px;
+border: none;
+font-size: 2rem;
+}
+
+ #play {
+    background-color: green;
+}
+
+#pause{
+    background-color: orange;
+}
+
+ #reset {
+    background-color: red;
+}
+
+button:hover{
+cursor: pointer;
+}
